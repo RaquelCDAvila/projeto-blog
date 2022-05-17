@@ -1,7 +1,7 @@
 <?php
     include_once("helpers/url.php");
-    include_once("blog/data/categories.php");
-    include_once("blog/data/posts.php");
+    include_once("data/categories.php");
+    include_once("data/posts.php");
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -20,7 +20,7 @@
 <body>
     <header>
         <a href="<?= $BASE_URL?>" id="logo">
-            <img src="<?= $BASE_URL?>/blog/img/logo.svg" alt="Blog Codar">
+            <img src="<?= $BASE_URL?>/img/logo.svg" alt="Blog Codar">
         </a>
         <nav>
             <ul id="navbar">
